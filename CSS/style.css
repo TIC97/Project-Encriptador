@@ -1,4 +1,20 @@
 body {
     background: darkgray;
+    margin: auto;
 }
 
+.container {
+    width: 100%;
+}
+
+.campo-izquierda {
+    background: blanchedalmond;
+    display: inline-block;
+    width: 70%;
+}
+
+.campo-derecha {
+    background: blanchedalmond;
+    display: inline-block;
+    width: 29%;
+}
