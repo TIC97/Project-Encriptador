@@ -1,6 +1,7 @@
 body {
     background: darkgray;
     margin: auto;
+    font-family: 'Belanosima', sans-serif;
 }
 
 .container {
@@ -10,11 +11,46 @@ body {
 .campo-izquierda {
     background: blanchedalmond;
     display: inline-block;
-    width: 70%;
+    position: absolute;
+    width: 69%;
+    height: 80%;
+    left: 10px;
 }
+.campo-izquierda {
+    border-radius: 1%;
+    -webkit-border-radius: 1%;
+    -moz-border-radius: 1%;
+    -ms-border-radius: 1%;
+    -o-border-radius: 1%;
+}
+
 
 .campo-derecha {
     background: blanchedalmond;
     display: inline-block;
-    width: 29%;
+    position: absolute;
+    width: 28%;
+    height: 80%;
+    right: 10px;
+}
+
+.campo-derecha {
+    border-radius: 1%;
+    -webkit-border-radius: 1%;
+    -moz-border-radius: 1%;
+    -ms-border-radius: 1%;
+    -o-border-radius: 1%;
+}
+
+.titulos {
+    text-align: center;
+}
+
+.input-campo-izquierda {
+    display: inline-block;
+    position: absolute;
+    width: 800px;
+    height: 78%; 
+    align-content: center;
+    margin: 20px;
 }
